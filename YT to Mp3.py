@@ -37,7 +37,7 @@ def best_option(name,artist,results): #Return the index number of the best optio
         else:
             i+=1
         return best
-def downloader(path): #The dowloadera function per se
+def downloader(path): #The dowloader function 
     name = input('Name of the song: ').upper()
     artist = input('Name of the artist: ').upper()
     full_name= name+' '+artist+' '+'AUDIO'
